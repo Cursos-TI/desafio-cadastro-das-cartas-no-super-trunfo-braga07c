@@ -34,6 +34,7 @@ int main(){
     int pontos_turisticos2 = 30; 
     double densidade_populacional2 = 5622.24;
     double PIB_per_Capita2 = 44532.91; 
+    unsigned super_poder2;
 
     printf(" O estado2 é: %c\n", estado2);
     printf(" O codigo_da_carta2 é: %s\n", codigo_da_carta2);
@@ -44,15 +45,19 @@ int main(){
     printf(" Os pontos_turisticos2 é: %d\n", pontos_turisticos2);
     printf(" A densidade_populacional2 é: %g hab/km\u00b2\n",densidade_populacional2);
     printf(" O PIB_per_Capita2 é: %g Reais\n", PIB_per_Capita2);
-
+                           
     printf("Comparando as cartas!\n");
 
-    printf(" populacao1 > populacao2: %d\n", populacao1 < populacao2);
-    printf("area1 > area2: %d\n", area1 < area2);
-    printf("pontos_turisticos1 > pontos_turisticos2: %d\n", pontos_turisticos1 < pontos_turisticos2);
-    printf("densidade_populacional1 > densidade_populacional2: %d\n", densidade_populacional1 < densidade_populacional2);
-    printf("PIB_per_capita1 > PIB_per_Capita2: %d\n", PIB_per_Capita1 < PIB_per_Capita2);
-    printf 
-   
+    printf("populacao1 > populacao2: %d\n",  populacao1 < populacao2);
+    printf("area1 > area2: %d\n",  area1 < area2);
+    printf("PIB1 > PIB2: %d\n",  PIB1 < populacao2);
+    printf("populacao1 > populacao2: %d\n",  populacao1 < populacao2);
+    printf("populacao1 > populacao2: %d\n",  populacao1 < populacao2);
+
+    
+    
+    
+
     return 0;
+
 }
